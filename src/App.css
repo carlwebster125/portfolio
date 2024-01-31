@@ -1,0 +1,162 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  background-image: linear-gradient(
+      45deg,
+      #f0f0f0 25%,
+      transparent 25%,
+      transparent 75%,
+      #f0f0f0 75%
+    ),
+    linear-gradient(
+      -45deg,
+      #f0f0f0 25%,
+      transparent 25%,
+      transparent 75%,
+      #f0f0f0 75%
+    );
+  background-size: 20px 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(94, 0, 117, 0.836);
+  color: #fff;
+  padding: 20px;
+  top: 0;
+  position: sticky;
+  z-index: 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p, footer p {
+  color: #000000;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  color: #fff;
+}
+
+section h2 {
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li h3 {
+  color: #007bff;
+}
+
+p {
+  color: #555;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  background-color: rgba(94, 0, 117, 0.836);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  background-color: rgba(94, 0, 117, 0.836);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.footer-icons a {
+  margin-right: 10px;
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.resume-icon {
+  cursor: pointer;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.languages-section {
+  background-color: #cfcfcf;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+.language-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.language-name {
+  font-size: 0.8em;
+  margin-top: 5px;
+  text-align: center;
+  color: #000000;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}

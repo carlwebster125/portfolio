@@ -34,13 +34,13 @@ function App() {
       <footer className="footer">
   <div className="footer-icons">
     <a href="https://www.linkedin.com/in/carl-webster-498187236/" target="_blank" rel="noopener noreferrer">
-      <img src="/images/linkedin.png" alt="LinkedIn Profile" />
+      <img src="./images/linkedin.png" alt="LinkedIn Profile" />
     </a>
     <a href="https://github.com/carlwebster125" target="_blank" rel="noopener noreferrer">
-      <img src="/images/github.png" alt="Github Profile" />
+      <img src="./images/github.png" alt="Github Profile" />
     </a>
     <div className="resume-icon" onClick={openResume}>
-  <img src="/images/resume.png" alt="Resume" />
+  <img src="./images/resume.png" alt="Resume" />
 </div>
   </div>
   <p>carlwebster125@gmail.com</p>
